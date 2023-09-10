@@ -1,0 +1,34 @@
+.nav{
+    display: flex;
+    border: 2px;
+    
+    justify-content:space-between;
+    background-color: gray;
+    color: aliceblue;
+}
+.nav-links{
+    border: 2px;    
+    display: flex;
+    border-style: dashed;
+    justify-content: space-around;
+    padding: 0;
+
+
+}
+
+li{
+    
+    list-style-type: none;
+    margin-right: 20px;
+
+}
+.nav-links> li> a {
+    
+    color: aliceblue;
+}
+.btn {
+    border-style: dashed;
+    color: red;
+    background-color: darkturquoise;
+}
+
